@@ -670,7 +670,8 @@ h3 {
 	padding: 4% 8%;
 	background: var(--accent-color);
 	opacity: 0.8;
-	max-width: 90%;
+	max-width: 80%;
+	min-width: 50%;
 }
 
 h2 {
@@ -678,15 +679,10 @@ h2 {
 	font-size: 3rem;
 	font-weight: 500;
 	text-transform: uppercase;
-	display: block;
 }
 
 .head__body h2 {
 	margin-bottom: .75rem;
-}
-
-.head__body h6 {
-	display: block;
 }
 
 .page__article-sm {
