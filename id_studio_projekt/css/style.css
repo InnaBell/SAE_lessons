@@ -10,7 +10,6 @@
 	font-display: swap;
 }
 
-
 :root {
 	--accent-color: #E06337;
 	--background-color: #FBFBFB;
@@ -43,7 +42,6 @@ body {
 	flex-grow: 1;
 }
 
-/* ---------------------------- */
 [class*="__container"] {
 	padding-left: 1.875rem;
 	padding-right: 1.875rem;
@@ -52,7 +50,6 @@ body {
 	margin: 0 auto;
 }
 
-/* -------------Header--------------- */
 .header {
 	position: fixed;
 	width: 100%;
@@ -162,8 +159,6 @@ body {
 	display: none;
 }
 
-/* -------------Main Banner--------------- */
-
 .page__main {
 	position: relative;
 	min-height: 100vh;
@@ -239,7 +234,6 @@ h4 {
 	left: 0;
 	object-fit: cover;
 	z-index: -1;
-	/* damit man overlay sieht */
 }
 
 .slider__list {
@@ -261,8 +255,6 @@ h4 {
 .slider__item.active {
 	background-color: var(--accent-color);
 }
-
-/* -------------Main--------------- */
 
 .title-block {
 	max-width: 580px;
@@ -322,8 +314,6 @@ h5 {
 	padding-left: 1.25rem;
 }
 
-/* -------------Carousel--------------- */
-
 .page__carousel {
 	margin-bottom: 120px;
 }
@@ -337,7 +327,6 @@ h5 {
 
 .title__container a {
 	color: var(--heading-font-color);
-	/* transition: all 0.5s; */
 }
 
 .title__container a:hover {
@@ -359,7 +348,6 @@ h5 {
 }
 
 .carousel__image {
-	/* aspect-ratio: 1/1; */
 	overflow: hidden;
 }
 
@@ -440,8 +428,6 @@ h5 {
 	background-color: transparent;
 }
 
-/* -------------Services--------------- */
-
 .page__services {
 	margin-bottom: 3.75rem;
 }
@@ -509,8 +495,6 @@ h5 {
 	aspect-ratio: 393/208;
 }
 
-/* -----------Promo-block----------------- */
-
 .page__promo {
 	margin-bottom: 120px;
 }
@@ -538,8 +522,6 @@ h3 {
 	font-weight: 300;
 }
 
-/* --------------Social Media Block-------------- */
-
 .page__social {
 	margin-bottom: 120px;
 }
@@ -552,8 +534,6 @@ h3 {
 .carousel__item-social {
 	flex: 0 0 20vw;
 }
-
-/* --------------Footer-------------- */
 
 .footer {
 	background: var(--heading-font-color);
@@ -651,7 +631,6 @@ h3 {
 }
 
 /* =====================About Page======================== */
-/* ======================================================= */
 
 .black-font {
 	color: var(--heading-font-color);
@@ -691,7 +670,6 @@ h3 {
 	padding: 4% 8%;
 	background: var(--accent-color);
 	opacity: 0.8;
-	display: inline-block;
 	max-width: 90%;
 }
 
@@ -700,10 +678,15 @@ h2 {
 	font-size: 3rem;
 	font-weight: 500;
 	text-transform: uppercase;
+	display: block;
 }
 
 .head__body h2 {
 	margin-bottom: .75rem;
+}
+
+.head__body h6 {
+	display: block;
 }
 
 .page__article-sm {
@@ -751,8 +734,6 @@ h2 {
 	height: 100%;
 	object-fit: cover;
 }
-
-/* --------------Team-grid-------------- */
 
 .page__team {
 	margin-bottom: 120px;
@@ -805,7 +786,6 @@ h2 {
 }
 
 /* =====================Project Page======================== */
-/* ======================================================= */
 
 .page__projects {
 	margin-top: 120px;
@@ -918,7 +898,6 @@ h2 {
 }
 
 /* =====================Services Page======================== */
-/* ======================================================= */
 
 .background-change {
 	background: url('../img/interiors/reception.webp') 0 40%/cover no-repeat;
@@ -940,7 +919,6 @@ h2 {
 
 
 /* =====================Contacts Page======================== */
-/* ======================================================= */
 
 .page__contacts {
 	margin-top: 120px;
@@ -1068,7 +1046,6 @@ h2 {
 
 
 /* =====================Media Queries======================== */
-/* ======================================================= */
 
 @media (max-width: 1280px) {
 	h1 {
