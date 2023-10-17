@@ -61,6 +61,10 @@ body {
 	z-index: 50;
 }
 
+.sticky {
+	position: sticky;
+}
+
 .dark-overlay {
 	background-color: rgba(0, 0, 0, 0.4);
 }
@@ -662,7 +666,6 @@ h3 {
 }
 
 .page__head {
-	margin-top: 115px;
 	margin-bottom: 120px;
 }
 
@@ -805,7 +808,7 @@ h2 {
 /* ======================================================= */
 
 .page__projects {
-	margin-top: 240px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }
 
@@ -940,13 +943,12 @@ h2 {
 /* ======================================================= */
 
 .page__contacts {
-	margin-top: 240px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }
 
 .contacts__image-block {
 	padding-bottom: 120px;
-	margin-bottom: 120px;
 	border-bottom: 1px solid var(--heading-font-color);
 	display: flex;
 	justify-content: space-between;
@@ -1030,14 +1032,14 @@ h2 {
 }
 
 .request__header {
-	margin-bottom: 120px;
+	margin-bottom: 60px;
 }
 
 .form__lines {
 	display: grid;
 	grid-template: repeat(3, auto) / repeat(2, 1fr);
 	gap: 1.875rem;
-	margin-bottom: 5rem;
+	margin-bottom: 3.75rem;
 	color: var(--heading-font-color);
 }
 
@@ -1130,17 +1132,24 @@ h2 {
 		padding-bottom: 5rem;
 	}
 
+	.none-border {
+		padding-bottom: 0;
+	}
+
 	.article__image-block {
 		padding-bottom: 5rem;
 	}
 
-	.page__carousel {
-		margin-bottom: 5rem;
+	.page__projects {
+		margin-top: 5rem;
 	}
 
-	.page__projects {
-		margin-top: 200px;
-		margin-bottom: 5rem;
+	.page__contacts {
+		margin-top: 5rem;
+	}
+
+	.contacts__image-block {
+		padding-bottom: 5rem;
 	}
 
 	.main__slider {
