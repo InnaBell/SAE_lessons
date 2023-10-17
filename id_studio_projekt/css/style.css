@@ -1465,4 +1465,12 @@ h2 {
 		height: 90vw;
 		width: 100%;
 	}
+
+	.head__body h6 {
+		display: none;
+	}
+
+	.head__body h2 {
+		margin-bottom: 0;
+	}
 }
