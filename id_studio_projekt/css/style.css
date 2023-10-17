@@ -671,6 +671,7 @@ h3 {
 	background: var(--accent-color);
 	opacity: 0.8;
 	min-width: 70%;
+	max-width: 90%;
 }
 
 h2 {
@@ -1471,5 +1472,6 @@ h2 {
 
 	.head__body h2 {
 		margin-bottom: 0;
+		white-space: nowrap;
 	}
 }
