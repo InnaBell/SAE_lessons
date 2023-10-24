@@ -896,7 +896,7 @@ h2 {
 /* =====================Services Page======================== */
 
 .background-change {
-	background: url('../img/interiors/reception.webp') 0 40%/cover no-repeat;
+	background: url('../img/interiors/reception_big.webp') 0 40%/cover no-repeat;
 }
 
 .none-border {
@@ -1472,6 +1472,5 @@ h2 {
 
 	.head__body h2 {
 		margin-bottom: 0;
-		white-space: nowrap;
 	}
 }
