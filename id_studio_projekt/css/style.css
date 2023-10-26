@@ -1343,9 +1343,14 @@ h2 {
 		gap: .9375rem;
 	}
 
+	.projects__gallery {
+		gap: 1.875rem;
+	}
+
 	.projects__gallery-block {
 		display: flex;
 		flex-direction: column;
+		gap: 1.875rem;
 	}
 
 	.gallery__item {
@@ -1523,5 +1528,28 @@ h2 {
 
 	.head__body h2 {
 		margin-bottom: 0;
+	}
+
+	.projects__gallery {
+		gap: 1.25rem;
+	}
+
+	.projects__gallery-block {
+		gap: 1.25rem;
+	}
+
+	.gallery__item {
+		aspect-ratio: 1/1;
+	}
+}
+
+@media (any-hover:none) {
+
+	.services__text {
+		flex: 0 1 100%;
+	}
+
+	.services__image {
+		flex: 0 1 0px;
 	}
 }
