@@ -10,6 +10,7 @@
 	font-display: swap;
 }
 
+
 :root {
 	--accent-color: #E06337;
 	--background-color: #FBFBFB;
@@ -363,7 +364,6 @@ h5 {
 	transform: scale(1.05);
 }
 
-
 .carousel__item a {
 	color: var(--heading-font-color);
 }
@@ -377,6 +377,7 @@ h5 {
 	gap: 1.25rem;
 	text-transform: uppercase;
 	color: #434040;
+	height: 4.8125rem;
 }
 
 .carousel__item-caption::after,
@@ -386,6 +387,19 @@ h5 {
 	height: 2.25rem;
 	width: 2.25rem;
 	background: url("../img/icons/arrow-2.svg") 0 0 no-repeat;
+}
+
+.carousel__container {
+	text-align: center;
+}
+
+.carousel__button {
+	display: inline-block;
+	display: none;
+}
+
+.carousel__button:hover {
+	background-color: #ff622a;
 }
 
 /* Scrollbar ausblenden */
@@ -535,6 +549,7 @@ h3 {
 	flex: 0 0 20vw;
 }
 
+
 .footer {
 	background: var(--heading-font-color);
 	color: var(--body-font-color);
@@ -590,6 +605,10 @@ h3 {
 	font-weight: 300;
 	border-bottom: .0625rem solid var(--body-font-color);
 	width: 100%;
+}
+
+.subscribe__input:focus-visible {
+	outline: var(--accent-color) auto .0625rem;
 }
 
 .footer__bottom {
@@ -650,7 +669,7 @@ h3 {
 
 .head__wrapper {
 	max-width: 1240px;
-	background: url('../img/people/people_2.webp') 0 0/cover no-repeat;
+	background: url('../img/people/people_2.jpg') 0 0/cover no-repeat;
 	aspect-ratio: 1240/600;
 	display: flex;
 	justify-content: center;
@@ -781,6 +800,7 @@ h2 {
 	font-weight: 500;
 }
 
+
 /* =====================Project Page======================== */
 
 .page__projects {
@@ -893,10 +913,11 @@ h2 {
 	transform: translateY(-100%);
 }
 
+
 /* =====================Services Page======================== */
 
 .background-change {
-	background: url('../img/interiors/reception_big.webp') 0 40%/cover no-repeat;
+	background: url('../img/interiors/reception_big.jpg') 0 40%/cover no-repeat;
 }
 
 .none-border {
@@ -1035,10 +1056,16 @@ h2 {
 	background-color: var(--background-color);
 }
 
+.form__input:focus-visible {
+	outline: var(--accent-color) auto .0625rem;
+}
+
 .center {
 	display: block;
 	margin: 0 auto;
 }
+
+
 
 
 /* =====================Media Queries======================== */
@@ -1176,6 +1203,9 @@ h2 {
 
 
 @media (max-width: 767.98px) {
+	p {
+		font-size: 1rem;
+	}
 
 	h2 {
 		font-size: 1.75rem;
@@ -1368,6 +1398,10 @@ h2 {
 
 @media (max-width: 479.98px) {
 
+	h1 {
+		font-size: 2.25rem;
+	}
+
 	h2 {
 		font-size: 1.5rem;
 	}
@@ -1375,6 +1409,10 @@ h2 {
 	h3 {
 		font-size: 1.375rem;
 		font-weight: 300;
+	}
+
+	.page__main {
+		padding-top: 150px;
 	}
 
 	.footer__top {
@@ -1397,6 +1435,14 @@ h2 {
 		display: none;
 	}
 
+	.title__container a {
+		display: none;
+	}
+
+	.title__container {
+		justify-content: center;
+	}
+
 	.carousel__item {
 		flex: 0 0 60vw;
 	}
@@ -1410,6 +1456,11 @@ h2 {
 	.carousel__item-caption::after,
 	.item-caption::after {
 		background-size: 60%;
+	}
+
+	.carousel__button {
+		display: inline-block;
+		margin-top: 2.5rem;
 	}
 
 	.team__text-side {
