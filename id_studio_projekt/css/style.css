@@ -480,9 +480,6 @@ h5 {
 	display: flex;
 	justify-content: space-between;
 	gap: 1.875rem;
-}
-
-.services__row {
 	border-top: .0625rem solid var(--heading-font-color);
 }
 
@@ -492,15 +489,15 @@ h5 {
 
 .services__image {
 	flex: 0 1 30%;
-	opacity: 0;
+	/* opacity: 0;
 	visibility: hidden;
-	transition: all 0.5s;
+	transition: all 0.5s; */
 }
 
-.services__row:hover .services__image {
+/* .services__row:hover .services__image {
 	opacity: 1;
 	visibility: visible;
-}
+} */
 
 .services__image img {
 	width: 100%;
@@ -1543,13 +1540,16 @@ h2 {
 	}
 }
 
-@media (any-hover:none) {
-
-	.services__text {
-		flex: 0 1 100%;
-	}
+@media (any-hover: hover) {
 
 	.services__image {
-		flex: 0 1 0px;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.5s;
+	}
+
+	.services__row:hover .services__image {
+		opacity: 1;
+		visibility: visible;
 	}
 }
