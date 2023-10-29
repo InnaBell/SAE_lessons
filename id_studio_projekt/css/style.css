@@ -1,15 +1,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:300,regular,500&display=swap");
 
-@font-face {
-	font-family: 'Futura';
-	src: url('../fonts/Futura.woff2') format('woff2'),
-		url('../fonts/Futura.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-
 :root {
 	--accent-color: #E06337;
 	--background-color: #FBFBFB;
@@ -18,7 +9,7 @@
 	--primary-light-color: #F4F4F4;
 	--secondary-light-color: #DCDBDB;
 	--white-color: #ffffff;
-	--heading-font: "Futura", sans-serif;
+	--heading-font: "futura-pt", sans-serif;
 	--body-font: 'Inter', sans-serif;
 }
 
@@ -64,7 +55,7 @@ body {
 }
 
 .dark-overlay {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header__container {
@@ -79,8 +70,8 @@ body {
 
 .logo {
 	font-family: var(--heading-font);
-	font-size: 2rem;
-	font-weight: 500;
+	font-size: 2.25rem;
+	font-weight: 400;
 }
 
 .light-font {
@@ -190,8 +181,8 @@ body {
 h1 {
 	color: var(--white-color);
 	font-family: var(--heading-font);
-	font-size: 3.375rem;
-	font-weight: 500;
+	font-size: 3.75rem;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -689,8 +680,8 @@ h3 {
 
 h2 {
 	font-family: var(--heading-font);
-	font-size: 3rem;
-	font-weight: 500;
+	font-size: 3.375rem;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
@@ -1087,7 +1078,7 @@ h2 {
 
 @media (max-width: 1280px) {
 	h1 {
-		font-size: 2.5rem;
+		font-size: 3rem;
 	}
 
 	h2 {
