@@ -1561,3 +1561,9 @@ h2 {
 		font-size: 1rem;
 	}
 }
+
+@media (max-width: 360px) {
+	.team__text-side p {
+		display: none;
+	}
+}
